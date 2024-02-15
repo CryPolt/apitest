@@ -34,3 +34,6 @@ Route::get('/v2/', [Apiv2Controller::class, 'index']);
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+
